@@ -1,0 +1,22 @@
+
+Harvest a Field
+# first street, first avenue, num streets, num avenues showing 
+0 0 8 8
+# intersection size (in pixels) 
+38
+# things
+   becker.robots.Thing 2 1
+   
+# wall
+   becker.robots.Wall -1 0 Direction.NORTH
+   becker.robots.Wall -1 0 Direction.WEST
+   becker.robots.Wall -1 0 Direction.EAST
+   becker.robots.Wall 0 -1 Direction.NORTH
+   becker.robots.Wall 0 -1 Direction.WEST
+   becker.robots.Wall 0 -1 Direction.SOUTH
+   becker.robots.Wall 1 0 Direction.WEST
+   becker.robots.Wall 1 0 Direction.SOUTH
+   becker.robots.Wall 1 0 Direction.EAST
+   becker.robots.Wall 0 1 Direction.SOUTH
+   becker.robots.Wall 0 1 Direction.EAST
+   becker.robots.Wall 0 1 Direction.NORTH
